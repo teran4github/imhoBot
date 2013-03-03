@@ -1,3 +1,4 @@
 {"ts":1362348862094,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1362348869208,"patch":[[{"diffs":[[1,"ПриветДжаг!"]],"start1":0,"start2":0,"length1":0,"length2":11}]],"length":11,"saved":false}
 {"ts":1362350087322,"patch":[[{"diffs":[[0,"Прив"],[-1,"етДжаг!"]],"start1":0,"start2":0,"length1":11,"length2":4}]],"length":4,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1362352103286,"patch":[[{"diffs":[[0,"Прив"],[1,"\nasf"]],"start1":0,"start2":0,"length1":4,"length2":8}]],"length":8,"saved":false}
