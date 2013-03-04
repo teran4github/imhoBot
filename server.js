@@ -22,14 +22,28 @@ var fu = require("./fu"),
 //  response.write("Hello World");
 //  response.end();
 //}).listen(PORT);
+var bs = require('nodestalker'),
+    client = bs.Client(),
+    tube = 'test_tube';
+//client.watch(tube).onSuccess(function(data) {
+//});
+//client.use('defaults').onSuccess(function(data) {
+//  console.log(data);
+//
+//  client.put('my job').onSuccess(function(data) {
+//    console.log(data);
+//    client.disconnect();
+//  });
+//});
 
 fu.listen(Number(process.env.PORT || PORT), HOST);
 
-fu.get("/", fu.staticHandler("index.html"));
+fu.get("/", fu.staticHandler('index.html'));
 //fu.get("/style.css", fu.staticHandler("style.css"));
 //fu.get("/client.js", fu.staticHandler("client.js"));
 //fu.get("/jquery-1.2.6.min.js", fu.staticHandler("jquery-1.2.6.min.js"));
 
+fu.get('/info', fu.staticHandler('nodestalker/docs/beanstalk_client.html'));
 
 fu.get("/admin", function(req, res) {
     res.writeHead(200, {"Content-Type": "text/plain"});
