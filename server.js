@@ -31,7 +31,7 @@ fu.get("/", fu.staticHandler("index.html"));
 //fu.get("/jquery-1.2.6.min.js", fu.staticHandler("jquery-1.2.6.min.js"));
 
 
-fu.get("/who", function(req, res) {
+fu.get("/admin", function(req, res) {
     res.writeHead(200, {"Content-Type": "text/plain"});
     res.write('sss');
     res.end();
