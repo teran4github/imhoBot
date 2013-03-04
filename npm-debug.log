@@ -1,0 +1,50 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/var/lib/openshift/5133ca98e0b8cddfda0000c0/app-root/data//bin/node-openshift-v8',
+1 verbose cli   '/var/lib/stickshift/5133ca98e0b8cddfda0000c0/app-root/data/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-mysql' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.9
+4 verbose node symlink /var/lib/openshift/5133ca98e0b8cddfda0000c0/app-root/data//bin/node-openshift-v8
+5 verbose read json /var/lib/stickshift/5133ca98e0b8cddfda0000c0/app-root/data/423888/package.json
+6 verbose read json /var/lib/stickshift/5133ca98e0b8cddfda0000c0/app-root/data/423888/package.json
+7 verbose cache add [ 'node-mysql', null ]
+8 silly cache add name=undefined spec="node-mysql" args=["node-mysql",null]
+9 verbose parsed url { pathname: 'node-mysql',
+9 verbose parsed url   path: 'node-mysql',
+9 verbose parsed url   href: 'node-mysql' }
+10 silly lockFile 4522d1f6-node-mysql node-mysql
+11 verbose lock node-mysql /var/lib/openshift/5133ca98e0b8cddfda0000c0/app-root/data/.npm/4522d1f6-node-mysql.lock
+12 silly lockFile 4522d1f6-node-mysql node-mysql
+13 verbose addNamed [ 'node-mysql', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 4ca5d929-node-mysql node-mysql@
+16 verbose lock node-mysql@ /var/lib/openshift/5133ca98e0b8cddfda0000c0/app-root/data/.npm/4ca5d929-node-mysql.lock
+17 silly addNameRange { name: 'node-mysql', range: '', hasData: false }
+18 verbose url raw node-mysql
+19 verbose url resolving [ 'https://registry.npmjs.org/', './node-mysql' ]
+20 verbose url resolved https://registry.npmjs.org/node-mysql
+21 info trying registry request attempt 1 at 18:58:27
+22 http GET https://registry.npmjs.org/node-mysql
+23 http 404 https://registry.npmjs.org/node-mysql
+24 silly registry.get cb [ 404,
+24 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+24 silly registry.get     date: 'Sun, 03 Mar 2013 23:58:28 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'cache-control': 'must-revalidate' } ]
+25 silly lockFile 4ca5d929-node-mysql node-mysql@
+26 error 404 'node-mysql' is not in the npm registry.
+26 error 404 You should bug the author to publish it
+26 error 404
+26 error 404 Maybe try 'npm search mysql'
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, or http url, or git url.
+27 error System Linux 2.6.32-358.0.1.el6.x86_64
+28 error command "/var/lib/openshift/5133ca98e0b8cddfda0000c0/app-root/data//bin/node-openshift-v8" "/var/lib/stickshift/5133ca98e0b8cddfda0000c0/app-root/data/lib/node_modules/npm/bin/npm-cli.js" "install" "node-mysql"
+29 error cwd /var/lib/stickshift/5133ca98e0b8cddfda0000c0/app-root/data/423888
+30 error node -v v0.8.9
+31 error npm -v 1.1.62
+32 error code E404
+33 verbose exit [ 1, true ]
